@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <!--css-->
+ <link rel="stylesheet" href="css/bootstrap.css">
+ <!--JS-->
+ <script src="js/jquery-3.4.1.min.js"></script>
+ <script src="js/popper.min.js"></script>
+ <script src="js/bootstrap.js.map"></script>
+
+
+  <title>Belajar Bootstrap</title>
+</head>
+
+<body>
+  <header>
+    <h1 class="display-3 text-center my-4">Tables</h1>
+    
+    <hr>
+  </header>
+
+<!--#################### MULAI ######################-->
+  <div class="container">
+
+    <h5>Normal Table</h5>
+
+    <table class="table">
+
+        <tr>
+            <td>#</td>
+            <td>Nama</td>
+            <td>Kota Asal</td>
+            <td>Email</td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Dermawan</td>
+            <td>Bandung</td>
+            <td>dermawan@gmail.com</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Erik Doank</td>
+            <td>Jakarta</td>
+            <td>erik@icloud.com</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Doddy</td>
+            <td>Purwakarta</td>
+            <td>doy@yahoo.com</td>
+        </tr>
+
+    </table>
+
+      <br><br>
+
+    <h5>Inverse / Dark Table</h5>
+
+    <table class="table table-dark">
+      <thead>
+        <tr>
+            <th>#</th>
+            <th>Nama</th>
+            <th>Kota Asal</th>
+            <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <th>1</th>
+            <td>Dermawan</td>
+            <td>Bandung</td>
+            <td>Dermawan@gmail.com</td>
+        </tr>
+        <tr>
+            <th>2</th>
+            <td>Erik Doank</td>
+            <td>Jakarta</td>
+            <td>erik@icloud.com</td>
+        </tr>
+        <tr>
+            <th>3</th>
+            <td>Doddy Ferdiansyah</td>
+            <td>Purwakarta</td>
+            <td>doy@yahoo.com</td>
+        </tr>
+      </tbody>
+    </table>
+
+      <br><br>
+
+    <h5>Table Head Inverse</h5>
+
+    <table class="table">
+      <thead class="thead-dark">
+        <tr>
+            <th>#</th>
+            <th>Nama</th>
+            <th>Kota Asal</th>
+            <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <th>1</th>
+            <td>Dermawan</td>
+            <td>Bandung</td>
+            <td>Dermawan@gmail.com</td>
+        </tr>
+        <tr>
+            <th>2</th>
+            <td>Erik Doank</td>
+            <td>Jakarta</td>
+            <td>erik@icloud.com</td>
+        </tr>
+        <tr>
+            <th>3</th>
+            <td>Doddy Ferdiansyah</td>
+            <td>Purwakarta</td>
+            <td>doy@yahoo.com</td>
+        </tr>
+      </tbody>
+    </table>
+
+      <br><br>
+
+    <h5>Striped Table</h5>
+
+    <table class="table table-striped table-dark">
+      <thead>
+        <tr>
+            <th>#</th>
+            <th>Nama</th>
+            <th>Kota Asal</th>
+            <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <th>1</th>
+            <td>Dermawan</td>
+            <td>Bandung</td>
+            <td>Dermawan@gmail.com</td>
+        </tr>
+        <tr>
+            <th>2</th>
+            <td>Erik Doank</td>
+            <td>Jakarta</td>
+            <td>erik@icloud.com</td>
+        </tr>
+        <tr>
+            <th>3</th>
+            <td>Doddy Ferdiansyah</td>
+            <td>Purwakarta</td>
+            <td>doy@yahoo.com</td>
+        </tr>
+      </tbody>
+    </table>
+
+      <br><br>
+
+    <h5>Bordered Table</h5>
+
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+            <th>#</th>
+            <th>Nama</th>
+            <th>Kota Asal</th>
+            <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <th>1</th>
+            <td>Dermawan</td>
+            <td>Bandung</td>
+            <td>Dermawan@gmail.com</td>
+        </tr>
+        <tr>
+            <th>2</th>
+            <td>Erik Doank</td>
+            <td>Jakarta</td>
+            <td>erik@icloud.com</td>
+        </tr>
+        <tr>
+            <th>3</th>
+            <td>Doddy Ferdiansyah</td>
+            <td>Purwakarta</td>
+            <td>doy@yahoo.com</td>
+        </tr>
+      </tbody>
+    </table>
+
+      <br><br>
+
+    <h5>Borderless Table</h5>
+
+    <table class="table table-borderlast">
+      <thead>
+        <tr>
+            <th>#</th>
+            <th>Nama</th>
+            <th>Kota Asal</th>
+            <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <th>1</th>
+            <td>Dermawan</td>
+            <td>Bandung</td>
+            <td>Dermawan@gmail.com</td>
+        </tr>
+        <tr>
+            <th>2</th>
+            <td>Erik Doank</td>
+            <td>Jakarta</td>
+            <td>erik@icloud.com</td>
+        </tr>
+        <tr>
+            <th>3</th>
+            <td>Doddy Ferdiansyah</td>
+            <td>Purwakarta</td>
+            <td>doy@yahoo.com</td>
+        </tr>
+      </tbody>
+    </table>
+
+      <br><br>
+
+    <h5>Hoverable</h5>
+
+    <table class="table table-hover table-dark">
+      <thead>
+        <tr>
+            <th>#</th>
+            <th>Nama</th>
+            <th>Kota Asal</th>
+            <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <th>1</th>
+            <td>Dermawan</td>
+            <td>Bandung</td>
+            <td>Dermawan@gmail.com</td>
+        </tr>
+        <tr>
+            <th>2</th>
+            <td>Erik Doank</td>
+            <td>Jakarta</td>
+            <td>erik@icloud.com</td>
+        </tr>
+        <tr>
+            <th>3</th>
+            <td>Doddy Ferdiansyah</td>
+            <td>Purwakarta</td>
+            <td>doy@yahoo.com</td>
+        </tr>
+      </tbody>
+    </table>
+
+      <br><br>
+
+    <h5>Mewarnai Tabel</h5>
+
+    <table class="table">
+      <thead>
+        <tr class="table-success"> 
+            <th>#</th>
+            <th>Nama</th>
+            <th>Kota Asal</th>
+            <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="table-danger">
+            <th>1</th>
+            <td>Dermawan</td>
+            <td>Bandung</td>
+            <td>Dermawan@gmail.com</td>
+        </tr>
+        <tr class="table-info">
+            <th>2</th>
+            <td>Erik Doank</td>
+            <td>Jakarta</td>
+            <td>erik@icloud.com</td>
+        </tr>
+        <tr class="table-primary">
+            <th>3</th>
+            <td>Doddy Ferdiansyah</td>
+            <td>Purwakarta</td>
+            <td>doy@yahoo.com</td>
+        </tr>
+      </tbody>
+    </table>
+
+      <br><br>
+
+    <h5>Small Table</h5>
+
+    <table class="table table-sm">
+      <thead>
+        <tr>
+            <th>#</th>
+            <th>Nama</th>
+            <th>Kota Asal</th>
+            <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <th>1</th>
+            <td>Dermawan</td>
+            <td>Bandung</td>
+            <td>Dermawan@gmail.com</td>
+        </tr>
+        <tr>
+            <th>2</th>
+            <td>Erik Doank</td>
+            <td>Jakarta</td>
+            <td>erik@icloud.com</td>
+        </tr>
+        <tr>
+            <th>3</th>
+            <td>Doddy Ferdiansyah</td>
+            <td>Purwakarta</td>
+            <td>doy@yahoo.com</td>
+        </tr>
+      </tbody>
+    </table>
+
+      <br><br>
+
+    <h5>Responsive Table</h5>
+
+    <table class="table table-responsive">
+      <thead>
+        <tr>
+            <th>#</th>
+            <th>Nama</th>
+            <th>Alamat</th>
+            <th>Kota Asal</th>
+            <th>No. HP</th>
+            <th>Pekerjaan</th>
+            <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <th>1</th>
+            <td>Dermawan</td>
+            <td>Jl. Setiabudhi No. 193</td>
+            <td>Bandung</td>
+            <td>0812345678</td>
+            <td>Dosen</td>
+            <td>Dermawan@gmail.com</td>
+        </tr>
+        <tr>
+            <th>2</th>
+            <td>Erik Doank</td>
+            <td>Jl. Dago No. 2</td>
+            <td>Jakarta</td>
+            <td>08543212345</td>
+            <td>Wiraswasta</td>
+            <td>erik@icloud.com</td>
+        </tr>
+        <tr>
+            <th>3</th>
+            <td>Doddy Ferdiansyah</td>
+            <td>Jl. Gunung Bambu No.12A</td>
+            <td>Purwakarta</td>
+            <td>08112233445</td>
+            <td>Pegawai Negeri</td>
+            <td>doy@yahoo.com</td>
+        </tr>
+      </tbody>
+    </table>
+
+
+  </div>
+<!--#################### AKHIR ######################-->
+
+
+
+  <div style="margin-top:500px;"></div>
+
+ <script src="js/jquery-3.4.1.min.js"></script>
+ <script src="js/popper.min.js"></script>
+ <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
